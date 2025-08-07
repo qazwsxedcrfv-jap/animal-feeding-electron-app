@@ -9,3 +9,5 @@
 
 # Electron関連
 /dist-electron/
+/dist/*.exe
+/dist/win-unpacked/

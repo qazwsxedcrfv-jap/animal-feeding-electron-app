@@ -1,1 +1,1 @@
-{"name":"飼育データ管理","short_name":"飼育管理","description":"","start_url":".","display":"standalone","background_color":"#ffffff","theme_color":"#2563eb","lang":"en","scope":"./","icons":[{"src":"icons/icon-192x192.png","sizes":"192x192","type":"image/png"}]}
+{"name":"飼育データ管理","short_name":"飼育管理","description":"","start_url":"https://qazwsxedcrfv-jap.github.io/animal-feeding-electron-app/","display":"standalone","background_color":"#ffffff","theme_color":"#2563eb","lang":"en","scope":"./","icons":[{"src":"icons/icon-192x192.png","sizes":"192x192","type":"image/png"}]}

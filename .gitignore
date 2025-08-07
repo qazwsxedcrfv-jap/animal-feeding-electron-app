@@ -1,5 +1,5 @@
 # ビルド時に生成されるフォルダ
-#/dist/
+/dist/
 
 # Node.js関連
 /node_modules/

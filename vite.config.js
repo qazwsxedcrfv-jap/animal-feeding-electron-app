@@ -14,7 +14,7 @@ export default defineConfig({
       manifest: {
         name: '飼育データ管理',
         short_name: '飼育管理',
-        start_url: 'https://qazwsxedcrfv-jap.github.io/animal-feeding-electron-app/',
+        start_url: './',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#2563eb',

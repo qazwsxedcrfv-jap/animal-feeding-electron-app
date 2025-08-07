@@ -1,0 +1,11 @@
+# ビルド時に生成されるフォルダ
+/dist/
+
+# Node.js関連
+/node_modules/
+
+# 環境ファイル
+.env
+
+# Electron関連
+dist-electron/

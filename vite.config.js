@@ -36,5 +36,12 @@ export default defineConfig({
   base: '/animal-feeding-electron-app/',
   build: {
     outDir: 'docs',
+    rollupOptions: {
+      input: {
+        // ★★★ この行を修正 ★★★
+        main: 'public/index.html',
+        // '404': 'public/404.html' // 404.htmlがある場合
+      }
+    }
   },
 });

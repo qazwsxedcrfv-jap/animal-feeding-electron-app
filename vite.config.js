@@ -14,7 +14,8 @@ export default defineConfig({
       manifest: {
         name: '飼育データ管理',
         short_name: '飼育管理',
-        start_url: './',
+        // GitHub Pagesのパスに合わせて絶対パスで指定
+        start_url: '/animal-feeding-electron-app/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#2563eb',
@@ -31,6 +32,7 @@ export default defineConfig({
   server: {
     port: 5173,
   },
+  // ビルドのベースパスも同じパスに設定
   base: '/animal-feeding-electron-app/',
   build: {
     outDir: 'docs',

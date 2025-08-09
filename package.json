@@ -9,7 +9,8 @@
     "dev": "concurrently \"npm run start\" \"npm run electron\"",
     "build-vite": "vite build",
     "build-electron": "electron-builder",
-    "build": "npm run build-vite && npm run build-electron"
+    "build": "npm run build-vite && npm run build-electron",
+    "pwa-build": "vite build"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",
